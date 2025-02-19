@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTituloHistoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historia de las Armas de Fuego"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imgHistoria"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/fondoimg"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcionHistoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Las armas de fuego tienen una historia que se remonta al siglo IX en China, con el descubrimiento de la pólvora. A lo largo de los siglos, la tecnología evolucionó desde cañones rudimentarios hasta armas portátiles más precisas. Hoy en día, las armas abarcan un amplio espectro de diseños para diferentes propósitos militares, de defensa personal, deportivos y de caza."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp" />
+
+        <Button
+            android:id="@+id/btnVolverCatalogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al Catálogo"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

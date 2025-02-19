@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/fondoimg">
+
+    <TextView
+        android:id="@+id/tvTituloCatalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catálogo de Armas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <!-- Recuadro para la descripción -->
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:padding="16dp"
+        android:text="Las armas de fuego son dispositivos diseñados para propulsar proyectiles mediante la combustión de pólvora o explosivos. Han sido utilizadas tanto en defensa personal como en contextos militares a lo largo de la historia."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón para Armas Cortas -->
+    <Button
+        android:id="@+id/btnArmasCortas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Armas Cortas"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Botón para Armas Largas -->
+    <Button
+        android:id="@+id/btnArmasLargas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Armas Largas"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Botón para Historia de las Armas de Fuego -->
+    <Button
+        android:id="@+id/btnHistoriaArmas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historia de las Armas de Fuego"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
